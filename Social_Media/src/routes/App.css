@@ -1,0 +1,46 @@
+.App-container{
+  display: flex;
+}
+.body-container{
+  width: 100vw;
+  overflow: hidden;
+  
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Three columns with sizes 1fr each */
+  gap: 10px; /* Adjust the gap between cards */
+
+ 
+}
+
+.Sidebar{
+  min-height: 800px;
+}
+.post-card{
+  margin: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.spinner{
+  margin-top: 150px;
+}
+.hashtag{
+  margin:  0px 3px;
+}
+.reactions{
+  margin: 15px 0 0 0;
+}
+.create-post{
+  width: 80%;
+  
+  margin-left:10%;
+  margin-top: 40px;
+
+}
+.welcome{
+  margin: 100px 0;
+}
